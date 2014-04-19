@@ -91,7 +91,7 @@ sub usageError($)
 MAIN:
 {
     my $numTop = 10;     # number of processes to show memory usage for
-    my $loopDelay = 60; # number of seconds to sleep between iterations
+    my $loopDelay = 90; # number of seconds to sleep between iterations
     
     if (@ARGV)
     {
