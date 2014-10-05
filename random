@@ -20,7 +20,7 @@ echo "-----------------"
 # If you need a random int within a certain range, use the 'modulo' operator.
 # This returns the remainder of a division operation.
 
-RANGE=200
+RANGE=500
 
 echo
 
