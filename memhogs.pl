@@ -82,7 +82,7 @@ sub printSwapInfo()
 sub usageError($)
 {
     my ($msg) = @_;
-    
+
     print "Usage: $0 [numTop [loopDelay]]\n";
     die "$msg\n";
 }
@@ -92,7 +92,7 @@ MAIN:
 {
     my $numTop = 10;     # number of processes to show memory usage for
     my $loopDelay = 60; # number of seconds to sleep between iterations
-    
+
     if (@ARGV)
     {
         $numTop = shift @ARGV;
@@ -106,7 +106,7 @@ MAIN:
             unless $loopDelay =~ /^\d+$/ and $loopDelay > 0;
     }
     usageError("Too many arguments") if @ARGV;
-    
+
     while(1)
     {
         printDate();
