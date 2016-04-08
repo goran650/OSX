@@ -3,7 +3,7 @@
 # $RANDOM returns a different random integer at each invocation.
 # Nominal range: 0 - 32767 (signed 16-bit integer).
 
-MAXCOUNT=8
+MAXCOUNT=5
 count=1
 
 echo
